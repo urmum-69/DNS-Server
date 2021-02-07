@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Original sudomemoDNS v1.0
 # (c) 2019 Austin Burk/Sudomemo
 # All rights reserved
@@ -155,7 +156,7 @@ class Record:
 ZONES = {}
 
 try:
-  get_zones = requests.get("https://raw.githubusercontent.com/RiiConnect24/RiiConnect24-DNS-Server/master/dns_zones.json")
+  get_zones = requests.get("https://raw.githubusercontent.com/urmum-69/DNS-Server/master/dns_zones.json")
 except requests.exceptions.Timeout:
   print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
   print("[ERROR] Are you connected to the Internet?")
