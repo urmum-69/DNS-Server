@@ -19,7 +19,7 @@ jobs:
     - name: Install requirements with PIP
       run: pip install dnslib requests pyinstaller
     - name: Build DNS-Server
-      run: pyinstaller --onefile RiiConnect24-DNS-Server.spec
+      run: pyinstaller --onefile str2hax-DNS-Server.spec
     - name: Publish Build Artifacts
       uses: actions/upload-artifact@master
       with:

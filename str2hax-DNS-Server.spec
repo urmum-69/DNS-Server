@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['RiiConnect24-DNS-Server.py'],
-             pathex=['K:\\GitHub\\RiiConnect24-DNS-Server\\'],
+a = Analysis(['str2hax-DNS-server.py'],
+             pathex=['K:\\GitHub\\str2hax-DNS-Server\\'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -23,10 +23,10 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='rc24-dns-server',
+          name='str2hax-dns-server',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
           runtime_tmpdir=None,
-          console=True , icon='riiconnect24.ico')
+          console=True , icon='str2hax.ico')
